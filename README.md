@@ -1,9 +1,9 @@
 # INTRO
 A set of BASH commands in two scripts for OSINT and Passive Recon. Will Save results to files for further processing as necessary. <br/>
-Includes passive scanning using Nmap. Essential to run these through Kali Linux in VirtualBox. Written by Nathan Jones nathan.jones@arcadeusops.com. <br/>
+Includes passive scanning using Nmap. Essential to run these through Kali Linux in VirtualBox. Written by Nathan Jones nat@davaosecurity.com. <br/>
 
 # INSTALLATION
-git clone https://github.com/ArcadeusOPS/OSINT.git <br/>
+git clone https://github.com/DavaoSecurity/OSINT.git <br/>
 cd OSINT <br/>
 sudo chmod 755 *.sh <br/>
 sudo ./install.sh <br/>
@@ -39,7 +39,7 @@ Copyright (c) ArcadeusOPS
 Collate all output to a single XML or HTML file and email to designated user.
 
 # Bugs
-Send issues to info@arcadeusops.com stating nature of issue. A screenshot will help too. Thanks.
+Send issues to info@davaosecurity.com stating nature of issue. A screenshot will help too. Thanks.
 
 # CPD
 Part of EC-Council ECE/CPD Credits
