@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Nathan Jones nwj@inception.bz
 # INSTALL FIRST https://github.com/thewhiteh4t/FinalRecon https://github.com/powerexploit/Ashok https://github.com/laramies/theHarvester/wiki/Installation
+
 git clone https://github.com/thewhiteh4t/FinalRecon.git
 cd FinalRecon
 pip3 install -r requirements.txt
@@ -17,7 +18,6 @@ cd ..
 ~> python3.7 -m pip3 install -r requirements.txt
 cd ..
 r=$1
-k=$2
 
 # NOTE!!!! Don't forget to insert your API Keys in theHarvester."
 
@@ -74,9 +74,7 @@ sed -i -e '1iAll OSINT .txt files\' allrep.txt
 sed -i -e '2i******************************************************\' allrep.txt
 
 # zip
-pass=$(openssl rand -base64 6)
-zip --password ${pass} OSINT.zip allrep.txt dnsrec.html harvest.html dns.html disc.html
+zip OSINT.zip allrep.txt dnsrec.html harvest.html dns.html disc.html
 
-# Email Report and Password
-echo " OSINT Report CMS.zip" | mail -s "General CMS Malware Report for "$1" " -A OSINT.zip $2
-echo " Your password for "$1" OSINT.zip is "${pass}" " | mail -s "Your OSINT.zip Info" $2
+# clean up
+rm allrep.txt dnsrec.html harvest.html dns.html disc.html ashok.txt dns.xml disc.xml trape.txt torbot.txt nmA.txt

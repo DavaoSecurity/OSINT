@@ -51,10 +51,7 @@ sed -i -e '1iAll OSINT .txt files\' allrep.txt
 sed -i -e '2i******************************************************\' allrep.txt
 
 # zip
-pass=$(openssl rand -base64 6)
-zip --password ${pass} OSINT1.zip allrep.txt
+zip OSINT1.zip allrep.txt
 
-# Email Report and Password
-echo " OSINT Report OSINT1.zi" | mail -s "MOSINT SHERLOCK TWINT Report for "$1" " -A OSINT1.zi $2
-echo " Your password for "$1" OSINT1.zi is "${pass}" " | mail -s "Your OSINT1.zi Info" $2
-cd ..
+# clean up
+rm twint.txt sherly1.txt sherly.txt allrep.txt mosint.txt socan.txt
