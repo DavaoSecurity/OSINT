@@ -1,6 +1,6 @@
 # INTRO
 A set of BASH commands in two scripts for OSINT and Passive Recon. Will Save results to files for further processing as necessary. <br/>
-Includes passive scanning using Nmap. Essential to run these through Kali Linux in VirtualBox. Written by Nathan Jones nat@davaosecurity.com. <br/>
+Includes passive scanning using Nmap. Essential to run these through Kali Linux. Written by Nathan Jones nat@davaosecurity.com. <br/>
 
 # INSTALLATION
 git clone https://github.com/DavaoSecurity/OSINT.git <br/>
@@ -12,7 +12,7 @@ rm install.sh <br/>
 NOTE: Make sure that torrc is configured to SOCKS_PORT localhost:9050. Use your own APIs for Shodan, theHarvester, MOSINT, Sherlock and Twint. <br/>
 
 # Scripts
-install.sh installs a few extras. up.sh updates the base, installed Kali OS. <br/>
+install.sh installs a few extras. up.sh updates the base, installed Kali OS. fullOSINT.py is very detailed. <br/>
 osint.sh and osint1.sh run the individual commands and saves output to local storage. Follow the instruction in the osint.sh and osint1.sh file comments. <br/>
 
 # SSH
