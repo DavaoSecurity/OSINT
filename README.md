@@ -33,7 +33,7 @@ Do not use these scripts to navigate websites/devices that take part in any acti
 
 ## License
 MIT License
-Copyright (c) ArcadeusOPS
+Copyright (c) DavaoSecurity
 
 # TO DO
 Collate all output to a single XML or HTML file and email to designated user.
@@ -42,4 +42,4 @@ Collate all output to a single XML or HTML file and email to designated user.
 Send issues to info@davaosecurity.com stating nature of issue. A screenshot will help too. Thanks.
 
 # CPD
-Part of EC-Council ECE/CPD Credits
+Part of ECE/CPD Credits
