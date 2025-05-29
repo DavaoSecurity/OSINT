@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Nathan Jones nwj@inception.bz
+# Nathan Jones nat#davaosecurity.com
 # INSTALL FIRST https://github.com/twintproject/twint https://github.com/sherlock-project/sherlock https://github.com/alpkeskin/mosint
 pip3 install twint
 # clone the repo
