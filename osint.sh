@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Nathan Jones nwj@inception.bz
+# Nathan Jones nnat@davaosecurity.com
 # INSTALL FIRST https://github.com/thewhiteh4t/FinalRecon https://github.com/powerexploit/Ashok https://github.com/laramies/theHarvester/wiki/Installation
 
 git clone https://github.com/thewhiteh4t/FinalRecon.git
